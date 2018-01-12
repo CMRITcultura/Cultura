@@ -1,5 +1,3 @@
-
-
 (function() {
     var lastTime = 0;
     var vendors = ['ms', 'moz', 'webkit', 'o'];
@@ -8,7 +6,6 @@
         window.cancelAnimationFrame = window[vendors[x]+'CancelAnimationFrame']
             || window[vendors[x]+'CancelRequestAnimationFrame'];
     }
-
     if (!window.requestAnimationFrame)
         window.requestAnimationFrame = function(callback, element) {
             var currTime = new Date().getTime();
@@ -18,7 +15,6 @@
             lastTime = currTime + timeToCall;
             return id;
         };
-
     if (!window.cancelAnimationFrame)
         window.cancelAnimationFrame = function(id) {
             clearTimeout(id);
