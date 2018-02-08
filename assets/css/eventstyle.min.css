@@ -337,3 +337,11 @@ html {
 .event p {
     color: black;
 }
+@media screen and (min-width: 708px) {
+    #event-list .link {
+    float: right;
+    margin-left: 20px;
+    height: 14px;
+    margin-top: -9px;
+} 
+}
