@@ -1923,7 +1923,7 @@ body {
     background: linear-gradient(to right,#000000, #232526);
     border: 5px solid #e74c3c;
     border-radius: 1.2em;
-    color: #f0f0f0;
+    color: #a5a5a5;
 }
 .outer-nav.is-vis {
     visibility: visible;
