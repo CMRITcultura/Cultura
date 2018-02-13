@@ -1920,6 +1920,7 @@ body {
     background: linear-gradient(to right,#000000, #232526);
     border: 5px solid #e74c3c;
     border-radius: 1.2em;
+    color: #f0f0f0;
 }
 .outer-nav.is-vis {
     visibility: visible;
@@ -1943,7 +1944,7 @@ body {
     -webkit-transform: translateX(350px) translateZ(-1000px);
     transform: translateX(350px) translateZ(-1000px);
     font-size: 32px;
-    font-weight: 900;
+    font-weight: 400;
     opacity: 0;
     cursor: pointer;
     -webkit-transition: opacity .2s, -webkit-transform .2s;
@@ -1986,7 +1987,7 @@ body {
 }
 }@media (max-width: 600px) {
     .outer-nav>li {
-    font-size: 22px;
+    font-size: 15px;
 }
 }.outer-nav li.is-vis:nth-child(2) {
     -webkit-transition-delay: .04s;
