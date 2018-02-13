@@ -1917,7 +1917,7 @@ body {
     visibility: hidden;
     -webkit-transition: visibility 0s .2s;
     transition: visibility 0s .2s;
-    linear-gradient(to right,#000000, #232526);
+    background: linear-gradient(to right,#000000, #232526);
     border: 5px solid #e74c3c;
     border-radius: 1.2em;
 }
@@ -1972,13 +1972,13 @@ body {
     height: 90%;
     opacity: 0;
 
- box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
     
-    background-color:rgba(0,0,0,.0);
-    color: white;
+    background-color:rgba(0,0,0,0);
+    color: #f2f2f2;
 }
 .outer-nav>li.is-active::before {
     opacity: 1;
+    color: white;
 }
 @media (max-width: 767px) {
     .outer-nav>li {
