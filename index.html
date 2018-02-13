@@ -47,13 +47,52 @@
   width:300px;
   height: 300px;
  }
-	    #cord>.owl-stage-outer{
-   height: 150px;
+ .headliner1 svg {
+  position: absolute;
+  height: 300px;
+  width:100%;
+  left:12%;
  }
-	     * {
- 	font-family: 'Nunito';
+  @media screen and (max-width: 540px) {
+   .headliner1 svg {
+      position: absolute;
+      height: 300px;
+      width:100%;
+      left:8%;
+      top:4%;
  }
-
+}
+ .headliner2 svg {
+  position: absolute;
+  height: 300px;
+  width:100%;
+  left:12%;
+  bottom:-15%;
+ }
+ @media screen and (max-width: 540px) {
+   .headliner2 svg {
+      position: absolute;
+      height: 300px;
+      width:100%;
+      left:20%;
+      top:-64%;
+ }
+}
+.the-line{
+      transition-duration: 500ms;
+      stroke-dasharray: 520, 530;
+      stroke-dashoffset: 530;
+    }
+    svg:hover .the-line{
+      stroke-dasharray: 520, 520;
+      stroke-dashoffset: 55;
+    }
+    @media only screen and (max-width: 708px) {
+    svg .the-line{
+      stroke-dasharray: 520, 520;
+      stroke-dashoffset: 55;
+    }
+}
     </style>
    
     
@@ -112,7 +151,7 @@
                 <img src="images/insta.jpg" width="32" height="32">
                 </a>
             </li>
-		     <li>
+              <li>
                 <a href="https://www.instamojo.com/CULTURA/?ref=offer_page" target="_blank">
                 <img src="images/t.png" width="32" height="32">
                 </a>
@@ -151,48 +190,85 @@
           <li class="l-section section section--is-active" id="one">
            
             <div class="intro" id="once">
-              <div class="intro--banner">
+              <div class="intro--banner" style="display:flex;">
+                  <div class="headliner1">
 
-              <div class="owl-carousel owl-theme" id="owling" style="position: absolute;bottom: 15px;">
+                    <div class="fill">
+                        <div class="message">
+
+                          <svg width="420" height="420" x="0" y="0" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                           width="841.89px" height="595.28px" viewBox="0 0 841.89 595.28" enable-background="new 0 0 841.89 595.28" xml:space="preserve">
+
+                           <polyline fill="none" class="the-line" stroke="#43cea2" stroke-width="3" stroke-miterlimit="10" points="627.469,376 291.469,376 203,242 "/>
+                           <div class="des">
+                           <path id="path">
+    <animate attributeName="d" from="m0,110 h0" to="m0,110 h1100" dur="6.8s" begin="0s" repeatCount="indefinite"/>
+  </path>
+  <text font-size="26" font-family="Montserrat" fill='white'>
+    <textPath xlink:href="#path">
+    </textPath>
+  </text></div>
+</svg>
+                         <div class="des">
+                                                  <p> <strong>Arjun Janya</strong> <br>Crew include : Anuradha Bhat, Sanjith Hegde,Vyas Raj, Laxmi nataraj,Impana. Know More</p>
+                         </div>
+                        </div>
+
+                    </div>
+                  </div>
+                  <div class="headliner2">
+                    <div class="fill">
+                       <div class="message">
+                          <svg height="300" width="500"  x="1000px" y="1000px"  version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                           width="841.89px" height="595.28px" viewBox="0 0 841.89 595.28" enable-background="new 0 0 841.89 595.28" xml:space="preserve">
+                           <polyline fill="none" class="the-line" stroke="#43cea2" stroke-width="3" stroke-miterlimit="10" points="627.469,376 291.469,376 203,242 "/>
+                         </svg>
+                         <div class="des1">
+                                                  <p> <strong>Arjun Janya</strong> <br>Crew include : Anuradha Bhat, Sanjith Hegde,Vyas Raj, Laxmi nataraj,Impana. Know More</p>
+                         </div>
+                        </div>
+
+                    </div>
+                  </div>
+                
+              </div>
+              
+              <div class="intro--options" style="display: inline-flex;z-index: 11001;">
+                
+                <a href="brochure.pdf" download>
+                  <p>Download Brochure</p>
+                  
+                </a>
+                <p id="show"> Trending Events</p>
+                <a href="cultura17/index.html">
+                  <p>Past Works </p>
+                </a>
+
+
+              </div>
+
+
+ <div id="ev">
+ <button id ="hide" style="background-color:#43cea2;border:none;">  <i class="fa fa-close"  style="display: block;position: absolute;top:40%;z-index:110001;background-color:#43cea2;color:black;padding: 5px 10px;border-radius: 2px;">Close</i></button>
+              <div class="owl-carousel owl-theme" id="owling" style="position: absolute;bottom: 50px;">
+
   
-    <div class="item" style="background-image: url('images/fashion.jpg');font-size: 12px;"><span class="descrip">
-                      <h3>Cultura'18 Is Here!!</h3>
+   
+                    <div class="item" style="background-image: url('images/ethnic.jpg');background-size: 100% 100%;"><span class="descrip">
+                      <h5><a style="text-decoration: none;font-size: 12px;color: white;" href="https://www.facebook.com/Cultura.cmrit/photos/a.203649873173468.1073741828.202253166646472/776966535841796/?type=3&theater">Know More</a></h5>
                     </span></div>
-                    <div class="item" style="background-image: url('images/fashion.jpg');font-size: 12px;"><span class="descrip">
-                      <h5>THE DEVIL WEARS PRADA<br>Do you have the flair for fashion? The power to create magic on stage with those stellar designs. Live your dream to set fire on the ramp and make the heads turn. Let your attitude do the talking.</h5>
+                     <div class="item" style="background-image: url('images/event.jpg');background-size: 100% 100%;"><span class="descrip">
+                      <h5><a style="text-decoration: none;font-size: 12px;color: white;" href="https://www.facebook.com/Cultura.cmrit/photos/a.340024266202694.1073741832.202253166646472/776327102572406/?type=3&theater">Know More</a></h5>
                     </span></div>
-                    <div class="item" style="background-image: url('images/fashion.jpg');font-size: 12px;"><span class="descrip">
-                      <h5>THE DEVIL WEARS PRADA<br>Do you have the flair for fashion? The power to create magic on stage with those stellar designs. Live your dream to set fire on the ramp and make the heads turn. Let your attitude do the talking.</h5>
+                     <div class="item" style="background-image: url('images/ethnic.jpg');background-size: 100% 100%;"><span class="descrip">
+                      <h5><a style="text-decoration: none;font-size: 12px;color: white;" href="https://www.facebook.com/Cultura.cmrit/photos/a.203649873173468.1073741828.202253166646472/776966535841796/?type=3&theater">Know More</a></h5>
                     </span></div>
-                    <div class="item" style="background-image: url('images/fashion.jpg');font-size: 12px;"><span class="descrip">
-                      <h5>THE DEVIL WEARS PRADA<br>Do you have the flair for fashion? The power to create magic on stage with those stellar designs. Live your dream to set fire on the ramp and make the heads turn. Let your attitude do the talking.</h5>
-                    </span></div>
-                    <div class="item" style="background-image: url('images/fashion.jpg');font-size: 12px;"><span class="descrip">
-                      <h5>THE DEVIL WEARS PRADA<br>Do you have the flair for fashion? The power to create magic on stage with those stellar designs. Live your dream to set fire on the ramp and make the heads turn. Let your attitude do the talking.</h5>
-                    </span></div>
-                    <div class="item" style="background-image: url('images/fashion.jpg');font-size: 12px;"><span class="descrip">
-                      <h5>THE DEVIL WEARS PRADA<br>Do you have the flair for fashion? The power to create magic on stage with those stellar designs. Live your dream to set fire on the ramp and make the heads turn. Let your attitude do the talking.</h5>
-                    </span></div>
-                    <div class="item" style="background-image: url('images/fashion.jpg');font-size: 12px;"><span class="descrip">
-                      <h5>THE DEVIL WEARS PRADA<br>Do you have the flair for fashion? The power to create magic on stage with those stellar designs. Live your dream to set fire on the ramp and make the heads turn. Let your attitude do the talking.</h5>
+                     <div class="item" style="background-image: url('images/ethnic.jpg');background-size: 100% 100%;"><span class="descrip">
+                      <h5><a style="text-decoration: none;font-size: 12px;color: white;" href="https://www.facebook.com/Cultura.cmrit/photos/a.203649873173468.1073741828.202253166646472/776966535841796/?type=3&theater">Know More</a></h5>
                     </span></div>
 
     
-</div>
-              </div>
-              
-              <div class="intro--options">
-                
-                <a href="brochure.pdf" download>
-                  <h3>Download Brochure</h3>
-                  <p>Get the details of  the most exicitng fest in Bengaluru.</p>
-                </a>
-                <a href="cultura17/index.html">
-                  <h3>Archives</h3>
-                  <p>See the past works of Cultura </p>
-                </a>
-
-              </div>
+</div></div>
 
 
             </div>
@@ -228,51 +304,69 @@
 
               <div id="carousel1">
                 <div class="hideLeft1">
-                  <span class="c1 kannada"><img src="assets/img/kannada.png"></span>
-                  
+                  <span class="c1 kannada"><img src="assets/img/kannada.jpg"></span>
+                  <span class="descri">
+                      <h3>We live in a state of rich culture and history. Bask in the glory of the mother-tongue of Karnataka and its soul with events which bring out the Kannadiga in you.</h3>
+                    </span>
                </div>
 
                  <div class="hideLeft1">
                    <span class="c1 dance"><img src="assets/img/dance.jpg">
-                   </span>
+                   <span class="descri">
+                       <h3>To move one's feet or body, or both, rhythmically in a pattern of steps, especially to the accompaniment of music.</h3>
+                     </span></span>
                 </div>
 
                 <div class="prevLeftSecond1">
                   <span class="technical c1"><img src="assets/img/Tech.jpg">
-                  </span>
+                  <span class="descri">
+                      <h3>The modern world of ours is full of innovation in all spheres of life. But the most observed innovations are in technology. Technically adept, are you?</h3>
+                    </span></span>
                 </div>
 
                 <div class="prev1">
 
                     <span class="c1 music"><img src="assets/img/music.jpg">
-                    </span>
+                    <span class="descri">
+                        <h3>Melodic, harmonic, aural extravagence, music appeals to everyone in its own right. Everyone relates to it. Show us your appeal to music!</h3>
+                      </span></span>
                 </div>
 
                 <div class="selected1">
                   <span class="c1 art"><img src="assets/img/ART.jpg">
-                  </span>
+                  <span class="descri">
+                      <h3>Art is an expression of yourself. It is the embodiment of one's thoughts and beliefs. Embrace your artsy self at Cultura 17!</h3>
+                    </span></span>
                 </div>
 
 
 
                 <div class="next1">
                   <span class="c1 gaming"><img src="assets/img/gaming.jpg">
-                  </span>
+                  <span class="descri">
+                      <h3>Gaming has always been a part of us. Except now, it has become advanced. In the form of virtual warfare, one man teams and strategic battles. What more could you ask for?</h3>
+                    </span></span>
                 </div>
 
                 <div class="nextRightSecond1">
                   <span class="c1 informal"><img src="assets/img/informal.jpg">
-                  </span>
+                  <span class="descri">
+                      <h3>We've covered theatre, art, literature and music,but at Cultura 17 we want you to show us your're an all-rounder. The category which rounds up the festival!</h3>
+                    </span></span>
                 </div>
 
                 <div class="hideRight1">
                   <span class="c1 literary"><img src="assets/img/lit.jpg">
-                  </span>
+                  <span class="descri">
+                      <h3>Literature is the most agreeable way of ignoring life. After all, tomorrow is another day!</h3>
+                    </span></span>
                 </div>
 
                 <div class="hideRight1">
                   <span class="c1 theatre"><img src="assets/img/theatre.jpg">
-                  </span>
+                  <span class="descri">
+                      <h3>Theatre, the age old home of human expression. It's a gift to the senses to see captivating performances. Enthrall, entertain the masses at Cultura 17.</h3>
+                    </span></span>
                 </div>
 
 
@@ -723,7 +817,7 @@
 
               <div id="info">
                 <h2>Coordinater Details</h2>
-                <div class="owl-carousel owl-theme" id="cord" >
+                <div class="owl-carousel owl-theme" >
     <div class="item" ><h4>Vaisakh M<br>
 Chief Event Coordinator<br>
 7259480037<br>
@@ -802,7 +896,7 @@ vasa15me@cmrit.ac.in</h4></div>
                 
               </div>
 
-
+<h2>Location</h2>
             </div>
 
 
@@ -921,14 +1015,21 @@ $('.owl-carousel').owlCarousel({
    
     loop:true,
     autoWidth:true,
-    items:4
+    items:4,
+    pagination: false,
+    dots: false
 })
-
+$("#ev").hide();
 var loader = document.getElementById('preloader');
 window.addEventListener('load', function(){
   $(loader).css({'display':'none'})
 })
-
+ $("#hide").click(function(){
+        $("#ev").hide();
+    });
+    $("#show").click(function(){
+        $("#ev").show();
+    });
     
 
 });
