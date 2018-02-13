@@ -1946,7 +1946,7 @@ body {
     transform-style: preserve-3d;
     -webkit-transform: translateX(350px) translateZ(-1000px);
     transform: translateX(350px) translateZ(-1000px);
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 400;
     opacity: 0;
     cursor: pointer;
