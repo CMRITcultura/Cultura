@@ -1921,8 +1921,8 @@ body {
     -webkit-transition: visibility 0s .2s;
     transition: visibility 0s .2s;
     background: linear-gradient(to right,#000000, #232526);
-    border: 5px solid #e74c3c;
-    border-radius: 1.2em;
+    border: 2px solid #e74c3c;
+    
     color: #a5a5a5;
 }
 .outer-nav.is-vis {
