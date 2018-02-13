@@ -4,6 +4,7 @@
     position:fixed;
     right:20%;
     top:0%;
+
     z-index: 1100;
 }
 .sticky li{
@@ -11,7 +12,7 @@
     display: inline-flex;
     background-color:transparent;
     color:#efefef;
-    height:35px;
+    height:40px;
     padding:0px;
     margin:0px 0px 1px 0px;
     -webkit-transition:all 0.25s ease-in-out;
@@ -23,7 +24,7 @@
 
 .sticky li img{
     float:left;
-    max-width: 35px;
+    max-width: 40px;
     height:auto;
     margin:5px 4px;
     margin-right:5px;
@@ -35,15 +36,14 @@
   -webkit-filter: grayscale(0%);
 }
 
-
 @media only screen and (max-width: 534px) {
   .sticky li img{
 
       max-width: 25px;
-      -webkit-filter: grayscale(60%);
 
   }
 }
+
 .headliner1 {
     background-image: url("1.jpg");
     background-size: cover;
