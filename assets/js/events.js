@@ -2,7 +2,7 @@ var EventCategory = [{
         "name": "dance",
         "events": [{
                 "name": "Indian Classical",
-                "link" : "<a class='button' href='http://imojo.in/9xp70i' target="_blank">Register Now</a>",
+                "link" : "<a class='button' href='http://imojo.in/9xp70i'>Register Now</a>",
                 "thumb": "images/dance1.png",
                 "desc": "<p><strong>Kinkini (Indian Classical)</strong><br /><br /> <strong>Event description:</strong><br />A solo dance event where any Indian Classical dance form can be presented. When the music and dance create with accord. their magic captivates both heart and mind. Cultura '18 gives you the perfect opportunity to showcase your classical dancing skills. The bells are ready, the stage is set...come dream with your feet!<br><br> <strong>Participation:</strong><br> 1 per team<br><br><br /><br /><strong>Rules and regulations:<br /></strong>1. Individual event.<br />2. Number of rounds: 1<br />3. Time limit: 4+2 minutes.<br />4. All Indian Classical dance forms are entertained.<br />5. The music must be submitted in pen drive only and should be provided 1 hour before the commencement of the event.<br />6. Participants must report at least one hour prior to the event.<br />7. Any form of vulgarity in the movements or costume will be disqualified.<br />8. Decision of the judges will be final.<br /><br /><strong>Registration and Prize money</strong><br /><strong>Registration :</strong>100<br /><strong>Prize amount :</strong><br />1st place:3000<br />2nd place:1500<br /><br /><strong>Event Coordinators</strong>:<br />Diana Elizabeth Roy 8884335929<br />Prannay S Reddy 9590133123</p>"
             },
