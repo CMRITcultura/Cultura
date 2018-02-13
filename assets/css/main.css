@@ -1917,7 +1917,7 @@ body {
     visibility: hidden;
     -webkit-transition: visibility 0s .2s;
     transition: visibility 0s .2s;
-    background-color: black;
+    linear-gradient(to right,#000000, #232526);
     border: 5px solid #e74c3c;
     border-radius: 1.2em;
 }
