@@ -11,7 +11,7 @@
     display: inline-flex;
     background-color:transparent;
     color:#efefef;
-    height:60px;
+    height:35px;
     padding:0px;
     margin:0px 0px 1px 0px;
     -webkit-transition:all 0.25s ease-in-out;
@@ -23,7 +23,7 @@
 
 .sticky li img{
     float:left;
-    max-width: 60px;
+    max-width: 35px;
     height:auto;
     margin:5px 4px;
     margin-right:5px;
@@ -39,7 +39,7 @@
 @media only screen and (max-width: 534px) {
   .sticky li img{
 
-      max-width: 40px;
+      max-width: 25px;
 
   }
 }
