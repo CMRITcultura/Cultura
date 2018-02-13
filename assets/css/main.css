@@ -1124,6 +1124,9 @@ margin-left: -30px;
 .outer-nav>li.is-active::before {
     opacity: 1;
 }
+.outer-nav>li.is-active {
+    color:white;
+}
 @media (max-width: 767px) {
     .outer-nav>li {
     font-size: 36px;
