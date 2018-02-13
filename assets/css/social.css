@@ -2,9 +2,8 @@
     padding:0px;
     margin:0px;
     position:fixed;
-    right:0%;
-    top:25%;
-
+    right:20%;
+    top:0%;
     z-index: 1100;
 }
 .sticky li{
@@ -27,7 +26,14 @@
     height:auto;
     margin:5px 4px;
     margin-right:5px;
+    filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(100%);
 }
+.sticky li img:hover {
+    filter: none;
+  -webkit-filter: grayscale(0%);
+}
+
 
 @media only screen and (max-width: 534px) {
   .sticky li img{
