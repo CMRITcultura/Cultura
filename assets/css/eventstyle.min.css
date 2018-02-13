@@ -345,3 +345,28 @@ html {
     margin-top: -9px;
 } 
 }
+
+
+.link a {
+    color:white;
+    text-decoration: none;
+}
+#event-list div p{
+    display: inline;
+}
+.event .link {
+    background-color: #00bf8f;
+    border-radius: .5em;
+    color: white;
+    padding: 5px 10px;
+
+}
+
+#event-list .link {
+    display: block;
+    background-color: #00bf8f;
+    border-radius: .5em;
+    color: white;
+    padding: 5px 10px;
+
+} 
