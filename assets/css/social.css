@@ -8,6 +8,7 @@
 }
 .sticky li{
     list-style-type:none;
+    display: inline-flex;
     background-color:transparent;
     color:#efefef;
     height:60px;
