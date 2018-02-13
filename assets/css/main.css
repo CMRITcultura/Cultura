@@ -1872,7 +1872,7 @@ body {
     -webkit-transform: translateZ(0) translateX(0) rotateY(0deg);
     transform: translateZ(0) translateX(0) rotateY(0deg);
     min-height: 100%;
-    background: #000;
+     background: linear-gradient(to right,#000000, #232526);
     outline: 10px solid #e74c3c;
     -webkit-transition: -webkit-transform .4s;
     transition: -webkit-transform .4s;
