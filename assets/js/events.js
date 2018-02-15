@@ -321,31 +321,31 @@ var EventCategory = [{
         "thumb": "img/project5.png ",
         "events": [{
                 "name": "Anthyakshari",
-                 "link" : "<a class='button' href='http://imojo.in/6m12hk'>Register Now</a>",
+                 "link" : "<a class='button' href='http://imojo.in/6m12hk' target='_blank'>Register Now</a>",
                 "thumb": "images/kannada1.svg",
                 "desc": "<p><strong>Anthyakshari<br /></strong><br /><strong>EVENT DESCRIPTION:</strong><br />Antyakshari is a game mainly based on Kannada songs.Antyakshari​ is a spoken parlor game which tests the knowledge on Kannada songs.<br /><br /><strong>Participation:</strong><br> 2 per team<br><br><br /><strong>Rules and Regulations:</strong><br />1. You should carry ID cards<br />2. Total time of the game would be of two hours.<br />3.There would be four rounds having different modes.<br />4.These rounds would be declared only at the time of the game.<br>5. The decision of the judges would be final.<br /><br /><strong>Registration and Prize money</strong><br /><strong>Registration :</strong>200<br /><strong>Prize amount :</strong><br />1st place:3000<br />2nd place:1000<br /><br /><strong>Event Coordinators:<br /></strong>Shashwathi B- 8951682140<br />Maithili A N -8277750345</p>"
             },
             {
                 "name": "Ankura",
-                 "link" : "<a class='button' href='http://imojo.in/dbr23d'>Register Now</a>",
+                 "link" : "<a class='button' href='http://imojo.in/dbr23d' target='_blank'>Register Now</a>",
                 "thumb": "images/kannada2.svg",
                 "desc": "<p><strong>Ankura</strong><br /><br /><strong>EVENT DESCRIPTION:</strong><br />Ankura is not what one sees but what one can make others see,most exciting and creative drawing event.Draw/sketch based on the topic (given on spot).<br /><br /><strong>Participation:</strong><br> 1 per team<br><br><strong>Rules and Regulation:</strong><br />1.Participants are requested to be at the venue 30 mins before the commencement of event.<br />2. Requested to carry college IDs with them.<br />3. Duration: one and half hour.<br />4. Materials and other necessities for the event to be brought by participants (only drawing sheets will be provided).<br>5.Mobile phones and other electronic gadgets are not allowed.<br /><br /><strong>Registration and Prize money</strong><br /><strong>Registration :</strong>100<br /><strong>Prize amount :</strong><br />1st place:3000<br />2nd place:1000<br /><br /><strong>Event Coordinators:<br /></strong>Meghana S - 9980071179<br />Nethravathi A S - 9686753804</p>"
             },
             {
                 "name": "Rasa Prashne",
-                 "link" : "<a class='button' href='http://imojo.in/g4yqxn'>Register Now</a>",
+                 "link" : "<a class='button' href='http://imojo.in/g4yqxn' target='_blank'>Register Now</a>",
                 "thumb": "images/kannada3.svg",
                 "desc": "<p><strong>RASA PRASHNE</strong><br /><strong><br />EVENT DESCRIPTION:</strong><br />RASA PRASHNE is a kannada quiz competation where questions are purely related to Karnataka's history, politics, Kannada literature as well as current trends pertaining to karnataka.<br /><br /><strong>Participation:</strong><br> 2 per team<br><br><strong>RULES AND REGULATIONS :</strong><br />1. Two members in a team.<br />2. Competation consists of 3 rounds.<br />3. First round is a qualifying round.<br />4. Top 6 teams would be sent to next round.<br />5. Marks scored in first round is just for qualifying.<br />6. Marks scored in second and third round will be considered.<br />7. Answers should be given within 1 minute or else it will not be considered .<br /><br /><strong>Registration and Prize money</strong><br /><strong>Registration :</strong>200<br /><strong>Prize amount :</strong><br />1st place:3000<br />2nd place:1000<br /><br /><strong>Event Coordinators:<br /></strong>Naga Sanith Reddy P - 7676702524<br />Sanket Vijayakumar Gourai – 8050834978</p>"
             },
             {
                 "name": "Pakka Kannadiga",
-                 "link" : "<a class='button' href='http://imojo.in/9qjztm'>Register Now</a>",
+                 "link" : "<a class='button' href='http://imojo.in/9qjztm' target='_blank'>Register Now</a>",
                 "thumb": "images/kannada4.png",
                 "desc": "<p><strong>Pakka Kannadiga&nbsp;</strong><strong>(PAKKA KANNADIGA)</strong><br /><strong><br />EVENT DESCRIPTION:</strong><br />Event description: Are you a proud kannadiga? Can you talk very well in kannada? If you have good amount of knowledge about kannada language, literature, history, cinema, then this is the perfect platform to prove you are pakka kannadiga<br /><br /><strong>Participation:</strong><br> 1 per team<br><br><strong>RULES AND REGULATIONS:</strong><br />1.There are totally 3 rounds.<br />2.Prashnotthara -question and answers. Duration: 20 min.<br />3.Aashubhashana - pick and speak. Duration: 2+1 min.<br />4. Samvada -  debate. Duration: 4+4 min. (for-against).<br />4. Participants should be present 30 min before at the venue<br />5.Duration of the event is 2 hours.<br><br><strong>Registration and Prize money</strong><br /><strong>Registration :</strong>100<br /><strong>Prize amount :</strong><br />1st place:3000<br />2nd place:1000<br /><br /><strong>Event Coordinators:<br /></strong>Harshitha K: 8904473853<br />Keerthana Y: 9035832479</p>"
             },
             {
                 "name": "Kalabhinaya",
-                 "link" : "<a class='button' href='http://imojo.in/q2r4s'>Register Now</a>",
+                 "link" : "<a class='button' href='http://imojo.in/q2r4s' target='_blank'>Register Now</a>",
                 "thumb": "images/kannada5.svg",
                 "desc": "<p><strong>Kalabhinaya</strong><br /><strong><br />EVENT DESCRIPTION :</strong><br />&ldquo; Kalabhinaya is a event where one can showcase their acting skills<br /><strong><br>Participation:</strong><br> 1 per team<br><strong><br />RULES AND REGULATIONS:</strong><br />1. Bring your id cards.<br />2. Event has 2 rounds and the description about the event will be conveyed at the time of event.<br />3. Judges decision is final<br />4. Round 1: Preliminary<br />&nbsp; &nbsp; Round 2: Final Round.<br />5. Only shortlisted participants move on to the Final Round.<br />6. It is mandatory that participants should sing only Kannada bhavageethe songs.<br />7. Multiple participants from the same institution are allowed.<br />8. Contestants are judged on the basis of raga,swara,shruthi and expression.<br />9. Decision of judges will be final.<br />10. They will have to switch their sides (for or against) according to the whims and fancies of the judges.<br /><br /><strong>Registration and Prize money</strong><br /><strong>Registration :</strong>200<br /><strong>Prize amount :</strong><br />1st place:3000<br />2nd place:1000<br /><br /><strong>Event Coordinators:<br /></strong>Suraj Bellad-9740855985<br />Pavan Tej-7022666917</p>"
             }
