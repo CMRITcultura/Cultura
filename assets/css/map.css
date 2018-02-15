@@ -44,10 +44,7 @@ textarea {
     max-width: 500px;
     overflow: hidden;
     width: 40%;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
     border-radius: 5px;
-    -moz-box-shadow: rgba(26, 26, 26, .1) 0 1px 3px 0;
     -webkit-box-shadow: rgba(26, 26, 26, .1) 0 1px 3px 0;
     box-shadow: rgba(26, 26, 26, .1) 0 1px 3px 0
 }
@@ -115,6 +112,8 @@ textarea {
 
 .contact-form .submit {
     background: #f4f5f6;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     overflow: hidden;
     padding: 10px
@@ -127,8 +126,6 @@ textarea {
     float: right;
     padding: 9px 0px;
     width: 150px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
     border-radius: 5px
 }
 .contact-form .submit .button1 {
@@ -139,8 +136,6 @@ textarea {
     padding: 9px 0;
     width: 100px;
     margin-right: 10px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
     border-radius: 5px
 }
 
@@ -163,7 +158,6 @@ textarea {
 
 .contact-form .submit .button:focus {
     border-color: #b6daf2;
-    -moz-box-shadow: #75b9e7 0 0 4px 1px, #75b9e7 0 0 4px 1px inset;
     -webkit-box-shadow: #75b9e7 0 0 4px 1px, #75b9e7 0 0 4px 1px inset;
     box-shadow: #75b9e7 0 0 4px 1px, #75b9e7 0 0 4px 1px inset
 }
@@ -196,7 +190,6 @@ textarea {
 
 .contact-form .submit .button1:focus {
     border-color: #b6daf2;
-    -moz-box-shadow: #75b9e7 0 0 4px 1px, #75b9e7 0 0 4px 1px inset;
     -webkit-box-shadow: #75b9e7 0 0 4px 1px, #75b9e7 0 0 4px 1px inset;
     box-shadow: #75b9e7 0 0 4px 1px, #75b9e7 0 0 4px 1px inset
 }
