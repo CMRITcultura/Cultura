@@ -117,7 +117,7 @@ var EventCategory = [{
             },
             {
                 "name": "Technocrats - Competetive  Coding",
-                 "link" : "<a class='button' href='http://imojo.in/9xp70i' target='_blank'>Register Now</a>",
+                 "link" : "<a class='button' href='http://imojo.in/c4vxri' target='_blank'>Register Now</a>",
                 "thumb": "images/tech7.svg",
                 "desc": "<p><strong>Code completion</strong><br /><strong><br />Event description:</strong><br /> Do you have what it takes to be a true technocrat??Are you a passionate coder?So here comes the opportunity for you to compete in a thrilling 2 hour journey, proving your mettle in competetive coding.<br /><br /><strong>Rules and regulations:</strong><br />1.No. of participants : 1<br />2.No. of rounds : 2<br />3.Time limit : <br />&nbsp; &nbsp;QUALIFIER ROUND 45 mins ,<br />&nbsp; &nbsp;FINAL ROUND 45 mins<br />5.Using of mobile phones is prohibited<br />6.Not following any of the rules will lead to disqualification<br /><br /><strong>Registration and Prize money</strong><br /><strong>Registration :</strong>100<br /><strong>Prize amount :</strong><br />1st place:3000<br />2nd place:1000<br /><br /><strong>Event Coordinators:<br /></strong>Manogna M(7676738744)<br />Rashmishree Raul (7406360355)</p>"
             },
@@ -149,7 +149,7 @@ var EventCategory = [{
             },
             {
                 "name": "Western Solo Singing",
-                 "link" : "<a class='button' href='http://imojo.in/9xp70i' target='_blank'>Register Now</a>",
+                 "link" : "<a class='button' href='http://imojo.in/bbpp4n' target='_blank'>Register Now</a>",
                 "thumb": "images/music2.svg",
                 "desc": "<p><strong>PHILHARMONICS(Western Solo Singing)</strong><br /><strong><br />EVENT DESCRIPTION:</strong><br />Philharmonics provides a platform for students from all colleges to display their creativity and express themselves, particularly in the western genre. Students are given an opportunity to captivate the judges with their distinct and mesmerizing voices. Let your voices travel through our minds and speak to our souls.<br /><br /><strong>Participation:</strong><br> 1 per team<br><br><strong>RULES AND REGULATIONS:</strong><br />1.Time limit:<br />&nbsp; &nbsp;Prelims: 2+1 min<br />&nbsp; &nbsp;Finals: 3+1 min<br />2.It is an individual event.<br />3.Genre: Any Western genre and any non-Indian language.<br />4.Karaoke OR one accompanying instrumentalist is allowed.( No prerecorded audio.) However, Karaoke &nbsp; must be provided at the venue 30 min before the start of the event.<br />5. Judging will be based on vocals only.<br>7. Judging Criteria:<br> Voice Quality<br>Voice Modulation<br>Rhythm, Pitch, Variation<br> Choice of the song.<br>8.Points will be deducted on exceeding the time limit.<br>9.The judge's decision will be final and abiding.<br /><br /><strong>Registration and Prize money</strong><br /><strong>Registration :</strong>100<br /><strong>Prize amount :</strong><br />1st place:3000<br />2nd place:1500<br /><br /><strong>Event Coordinators:<br /></strong>Arjun Sharma-9739234435<br />Vidhya Judith - 9844804259</p>"
             }
@@ -196,7 +196,7 @@ var EventCategory = [{
             },
             {
                 "name": "Dota2",
-                 "link" : "<a class='button' href='http://imojo.in/9xp70i' target='_blank'>Register Now</a>",
+                 "link" : "<a class='button' href='http://imojo.in/sgks4' target='_blank'>Register Now</a>",
                 "thumb": "images/game6.png",
                 "desc": "<p><strong>DOTA 2</strong><br /><strong><br />Event descripton:</strong><br /><br /><strong>Rules and regulation:</strong><br /><em>Game used:</em> DOTA 2 (Tournament)<br /><em>Competition method:</em> 5 versus 5 <br /><em> Game version Dota 2<br /><em>Sides:</em> (Radiant / Dire) will be determined by the host.<br /><em>First Ban:</em> Dire team.<br /><em>Victory condition:</em> The first team to destroy the other team&rsquo;s ancient.<br /><br /><strong>SPECIFIC RULES:</strong><br />1. During the tournament all members team must have their team tag during the event.<br />2. Players must be prepared before their scheduled games.<br />3. All competitors must be present 15 minutes prior to their scheduled match.<br />4. Teams who fails to join the room at the first fifteen (15) minutes from the start of their schedules will automatically lose at the game one (1) of their match series. (excuses are not entertained, even if the game is updating, etc.)<br />5. Teams who fails to join the room at the next fifteen (15) minutes will automatically lose the whole series (game of three matches).<br />6. Players who are registered must be the one to play. If a reserve is needed, only the listed reserves must also play.<br />7. Final calls are irrevocable.</p><p><strong>Registration and Prize money:</strong><br /><strong>Registration :</strong>500<br /><strong>Prize amount :</strong><br />1st place:10000<br />2nd place: 5000<br /><br /><strong>Event Coordinators:<br /></strong>Abhimanyu Agarwala : 9435291193<br>Faaiz Ahmed : 9980458998</p>"
             },
