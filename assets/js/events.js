@@ -79,7 +79,13 @@ var EventCategory = [{
         "name": "technical",
         "thumb": "images/art5.svg",
 
-        "events": [{
+        "events": [
+                 {
+                "name": "Technocrats - Competetive  Coding",
+                 "link" : "<a class='button' href='http://imojo.in/c4vxri' target='_blank'>Register Now</a>",
+                "thumb": "images/tech7.svg",
+                "desc": "<p><strong>Code completion</strong><br /><strong><br />Event description:</strong><br /> Do you have what it takes to be a true technocrat??Are you a passionate coder?So here comes the opportunity for you to compete in a thrilling 2 hour journey, proving your mettle in competetive coding.<br /><br /><strong>Rules and regulations:</strong><br />1.No. of participants : 1<br />2.No. of rounds : 2<br />3.Time limit : <br />&nbsp; &nbsp;QUALIFIER ROUND 45 mins ,<br />&nbsp; &nbsp;FINAL ROUND 45 mins<br />5.Using of mobile phones is prohibited<br />6.Not following any of the rules will lead to disqualification<br /><br /><strong>Registration and Prize money</strong><br /><strong>Registration :</strong>100<br /><strong>Prize amount :</strong><br />1st place:3000<br />2nd place:1000<br /><br /><strong>Event Coordinators:<br /></strong>Manogna M(7676738744)<br />Rashmishree Raul (7406360355)</p>"
+            },{
                 "name": "Tech Quiz",
                  "link" : "<a class='button' href='http://imojo.in/d86ghn' target='_blank'>Register Now</a>",
                 "thumb": "images/tech1.svg",
@@ -115,12 +121,7 @@ var EventCategory = [{
                 "thumb": "images/tech6.svg",
                 "desc": "<p><strong>Tech hunt</strong><br /><strong><br />Event description:</strong><br />Sound knowledge of technology is required to finish your quest in search of hidden treasure.<br /><strong><br />Rules and regulations:</strong><br />1. No. of participants per team: 1 - 4<br />2. Time limit : 2 Hours<br />3. Participants should be at the event venue 10 minutes prior to the starting of the event.<br />4. Activities like disturbing other participants &amp; using foul language will lead to disqualification directly.<br /><strong><br />Registration and Prize money</strong><br /><strong>Registration :</strong>100<br /><strong>Prize amount :</strong><br />1st place:4000<br />2nd place:2000<br /><br /><strong>Event Coordinators:</strong> <br />Raj Rohan(9739329631)<br />Sakshi Sinha (8073151132)</p>"
             },
-            {
-                "name": "Technocrats - Competetive  Coding",
-                 "link" : "<a class='button' href='http://imojo.in/c4vxri' target='_blank'>Register Now</a>",
-                "thumb": "images/tech7.svg",
-                "desc": "<p><strong>Code completion</strong><br /><strong><br />Event description:</strong><br /> Do you have what it takes to be a true technocrat??Are you a passionate coder?So here comes the opportunity for you to compete in a thrilling 2 hour journey, proving your mettle in competetive coding.<br /><br /><strong>Rules and regulations:</strong><br />1.No. of participants : 1<br />2.No. of rounds : 2<br />3.Time limit : <br />&nbsp; &nbsp;QUALIFIER ROUND 45 mins ,<br />&nbsp; &nbsp;FINAL ROUND 45 mins<br />5.Using of mobile phones is prohibited<br />6.Not following any of the rules will lead to disqualification<br /><br /><strong>Registration and Prize money</strong><br /><strong>Registration :</strong>100<br /><strong>Prize amount :</strong><br />1st place:3000<br />2nd place:1000<br /><br /><strong>Event Coordinators:<br /></strong>Manogna M(7676738744)<br />Rashmishree Raul (7406360355)</p>"
-            },
+           
             {
                 "name": "CRYPTEX - Cryptography",
                  "link" : "<a class='button' href='http://imojo.in/7bmpix' target='_blank'>Register Now</a>",
