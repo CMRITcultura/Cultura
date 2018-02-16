@@ -193,6 +193,8 @@ html {
     }
     .event-names ul {
         width: 100%;
+        max-height: 400px;
+        overflow-y:scroll;
         list-style-type: none;
         display: -webkit-box;
         display: -ms-flexbox;
