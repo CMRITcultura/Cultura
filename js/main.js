@@ -24,26 +24,26 @@ function animateCircles(event){
     // circle.style.opacity=0;
 }
 
-var images = new Array()
-    function preload() {
-      for (i = 0; i < preload.arguments.length; i++) {
-        images[i] = new Image()
-        images[i].src = preload.arguments[i]
-      }
-    }
-preload(
-    "./img/games.gif",
-    "./img/art.gif",
-    "./img/theatre.gif",
-    "./img/photography.gif",
-    "./img/kannada.gif",
-    "./img/music.gif",
-    "./img/dance.gif",
-    "./img/literature.gif",
-    "./img/technical.gif",
-    "./img/informal.gif",
-    "./img/poster2.png"
-  )
+// var images = new Array()
+//     function preload() {
+//       for (i = 0; i < preload.arguments.length; i++) {
+//         images[i] = new Image()
+//         images[i].src = preload.arguments[i]
+//       }
+//     }
+// preload(
+//     "./img/games.gif",
+//     "./img/art.gif",
+//     "./img/theatre.gif",
+//     "./img/photography.gif",
+//     "./img/kannada.gif",
+//     "./img/music.gif",
+//     "./img/dance.gif",
+//     "./img/literature.gif",
+//     "./img/technical.gif",
+//     "./img/informal.gif",
+//     "./img/poster2.png"
+//   )
 
 //------------------
 //timer part
