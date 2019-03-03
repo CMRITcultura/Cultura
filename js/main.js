@@ -1,29 +1,49 @@
 document.onmousemove = animateCircles;
 
-var colors = ['#50f' , '#90f', '#28d' , '#f55', '#0af', "#80f"];
+// var colors = ['#50f' , '#90f', '#28d' , '#f55', '#0af', "#80f"];
 
 function animateCircles(event){
-    var circle = document.createElement("div");
-    circle.setAttribute("class", "circle");
-    document.body.appendChild(circle);
+    // var circle = document.createElement("div");
+    // circle.setAttribute("class", "circle");
+    // document.body.appendChild(circle);
 
-    circle.style.left = event.clientX + 'px';
-    circle.style.top = event.clientY + 'px';
+    // circle.style.left = event.clientX + 'px';
+    // circle.style.top = event.clientY + 'px';
 
-    var colbg = colors[Math.floor(Math.random() * colors.length)];
-    var colbd = colors[Math.floor(Math.random() * colors.length)];
-    circle.style.borderColor = colbd;
-    circle.style.background = colbg;
-    circle.style.transition = "all 0.3s linear 0.2s";
+    // var colbg = colors[Math.floor(Math.random() * colors.length)];
+    // var colbd = colors[Math.floor(Math.random() * colors.length)];
+    // circle.style.borderColor = colbd;
+    // circle.style.background = colbg;
+    // circle.style.transition = "all 0.3s linear 0.2s";
 
-    circle.style.right = circle.offsetLeft - 20 + 'px';
+    // circle.style.right = circle.offsetLeft - 20 + 'px';
 
-    circle.style.width = "30px";
-    circle.style.height= "30px";
+    // circle.style.width = "30px";
+    // circle.style.height= "30px";
 
-    circle.style.opacity=0;
+    // circle.style.opacity=0;
 }
 
+var images = new Array()
+    function preload() {
+      for (i = 0; i < preload.arguments.length; i++) {
+        images[i] = new Image()
+        images[i].src = preload.arguments[i]
+      }
+    }
+preload(
+    "./img/games.gif",
+    "./img/art.gif",
+    "./img/theatre.gif",
+    "./img/photography.gif",
+    "./img/kannada.gif",
+    "./img/music.gif",
+    "./img/dance.gif",
+    "./img/literature.gif",
+    "./img/technical.gif",
+    "./img/informal.gif",
+    "./img/poster2.png"
+  )
 
 //------------------
 //timer part
@@ -31,7 +51,7 @@ function animateCircles(event){
 //set the date HERE
 var countDownDate = new Date("Mar 22, 2019 00:00:00").getTime();
 
-//update teh countDown every 1 section
+//update the countDown every 1 section
 var countdownfunction = setInterval(
   function()
   {
@@ -43,7 +63,7 @@ var countdownfunction = setInterval(
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     //output element's id = demo
-    document.getElementById("demo").innerHTML = days + "d " + hours +  "h " + minutes + "m " + seconds + "s ";
+    document.getElementById("demo").innerHTML = days + "<span class='timer-labels'>d </span>" + hours +  "<span class='timer-labels'>h </span>" + minutes + "<span class='timer-labels'>m </span>" + seconds + "<span class='timer-labels'>s </span>";
 
     //if countdown is over will write something HERE [ ONCE THE TIMER IS DONE WE'LL HAVE TO REPLACE THIS BIT. ]
 
@@ -55,9 +75,4 @@ var countdownfunction = setInterval(
 
   } , 1000);
 
-//wait dont change anything right now. il get confused.  XD
-
-//-------------------
-// introducing le sparklez !
-// sparkles a temporary failure.
-//lol
+  
