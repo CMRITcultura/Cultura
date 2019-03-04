@@ -248,8 +248,18 @@
                     <h5>MIME</h5>
                     <img src="club logos/Mime.png">
                   </card>
+                </a>
               </div>
-              </a>
+
+              <div col = "1/3">
+                <a target="_blank" id="hallabol" value="mime" onclick="opclick(this.id)">
+                  <card class="topic-cards">
+                    <h5>Hallabol [ Street Play ]</h5>
+                    <img src="club logos/Hallabol.png">
+                  </card>
+                </a>
+              </div>
+
               <div col = "1/3">
                 <a target="_blank" id="madadas" value="madads" onclick="opclick(this.id)">
                   <card class="topic-cards">
@@ -898,6 +908,26 @@
 
         var curid;
         var reglink;
+
+        var images = new Array()
+    function preload() {
+      for (i = 0; i < preload.arguments.length; i++) {
+        images[i] = new Image()
+        images[i].src = preload.arguments[i]
+      }
+    }
+    preload(
+        "./img/games.gif",
+        "./img/art.gif",
+        "./img/theatre.gif",
+        "./img/photography.gif",
+        "./img/kannada.gif",
+        "./img/music.gif",
+        "./img/dance.gif",
+        "./img/literature.gif",
+        "./img/technical.gif",
+        "./img/informal.gif"
+      )
 
         function topicclick(topic){
          curid = topic+"div";
