@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 312.57 312.57" enable-background="new 0 0 312.57 312.57" width="512px" height="512px">
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "https://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 312.57 312.57" enable-background="new 0 0 312.57 312.57" width="512px" height="512px">
   <g>
     <path d="m128.594,207.131l-5.059,9.536 7.214,19.138c4.696-1.783 8.393-5.877 9.418-11.17 1.555-8.03-3.614-15.793-11.573-17.504z" fill="#008CFF"/>
     <circle cx="98.12" cy="35.811" r="25.906" fill="#008CFF"/>
