@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--     bare  css     -->
     <link rel="stylesheet" type="text/css" media="screen" href="./css/bare.min.css" />
+    <link rel="stylesheet" href="./slick/slick.css">
+    <link rel="stylesheet" href="./slick/slick-theme.css">
     <!-- custom stylesheet
     <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
        font size fix   -->
@@ -22,7 +24,7 @@
 
   <body>
 <!-- Background  -->
-    <img  id="bgimg">
+    <div  id="bgimg"></div>
 
     <nav id="navbar">
     	<label id="lbl">
@@ -41,25 +43,38 @@
     </nav>
 
         <section id="container_main" style="height:100%;justify-content:center;">
-          <!-- <img src="./img/headliner.png"> -->
           <!-- put headliner poster/bg as headliner.png -->
-          <!--
-          <section id="secondary">
-          <card>
+            <section id="secondary">
+              <div class="slide">
+                <div>
+                    <card>
+                          <img src = "./img/headliner1.jpeg">
+                          <a href="https://www.instamojo.com/CULTURA/mariana-bo-early-bird-passes/" target="_blank"><button id="buybutton">BUY TICKETS</buttons></a>
+                      </card>
+                </div>
+                  <div>
+                      <card>
+                            <img src = "./img/headliner2.png">
+                            <a href="https://www.instamojo.com/CULTURA/mariana-bo-early-bird-passes/" target="_blank"><button id="buybutton">BUY TICKETS</buttons></a>
+                        </card>
+                  </div>
+                  <div>
+                      <card>
+                            <img src = "./img/headliner.jpeg">
+                            <a href="https://www.instamojo.com/CULTURA/mariana-bo-early-bird-passes/" target="_blank"><button id="buybutton">BUY TICKETS</buttons></a>
+                        </card>
+                  </div>
+              </div>
+            
 
-             <h5>Title</h5>
-
-
-              <img src = "./img/poster2.png">
-              <a href="https://www.instamojo.com/CULTURA/mariana-bo-early-bird-passes/" target="_blank"><button id="buybutton">BUY TICKETS</buttons></a>
-
-          </card>
-
-        </section>
-      -->
-          <h2 style="color:#888;background-color:#222;padding:2em;font-family:courier;">Coming Soon !</h2>
+          </section>
+     
         </section>
     </div>
+
+    <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="./slick/slick.min.js"></script>
+
     <style>
 
     body{
@@ -158,9 +173,9 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 99vw;
+    width: 100vw;
     /*
-    background-image: url("https://thepowerofvoices.com/wp-content/uploads/2016/03/mes-de-dezembro-na-capital-contara-com-grandes-shows-no-sertanejo.jpg");
+    background-image: url("http://thepowerofvoices.com/wp-content/uploads/2016/03/mes-de-dezembro-na-capital-contara-com-grandes-shows-no-sertanejo.jpg");
     */
     background-image: url("./img/headlinerbg.jpg");
     background-color: #111;
@@ -168,12 +183,61 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    animation-name: change2;
+      animation-duration: 1s;
     /*
-    filter: blur(5px) hue-rotate(205deg) brightness(0.7);
+    
     */
-    filter: blur(5px) brightness(0.4) grayscale(100);
+
   }
+  
+  
+  
+    #bgimg:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
+      opacity: .6;
+      animation-name: change;
+      animation-duration: 1s;
+      transition:all 2s linear;
+      animation-iteration-count: infinite;
+      filter: blur(5px) hue-rotate(205deg) brightness(0.7) grayscale(0.3);
+    }
+    
+    @keyframes change {
+    
+    0%{
+    filter: blur(5px) hue-rotate(190deg) brightness(0.8) grayscale(0.3);
+    }
+    50%{
+    filter: blur(5px) hue-rotate(220deg) brightness(0.4) grayscale(0.3);
+    }
+    100%{
+      filter: blur(5px) hue-rotate(190deg) brightness(0.8) grayscale(0.3);
+      }
+    
+    }
+  
+  
     </style>
     <script rel="stylesheet" type="text/javascript" src="./js/main.js"></script>
+    <script>
+      $('.slide').slick({
+        dots: false,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        autoplay: true,
+        cssEase: 'linear'
+      });
+      $('.slide').on('touchstart', e => {
+          $('.slide').slick('slickPlay');
+      });
+  </script>
   </body>
 </html>
